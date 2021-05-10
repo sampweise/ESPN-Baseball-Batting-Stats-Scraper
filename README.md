@@ -6,7 +6,7 @@ A baseball stats web scraper that takes ESPN's updated team batting stats and pu
 
 
 
-### Creating the object
+### Creating the object:
 When calling the Scraper object it takes a string that is a key used for a team name
 
 Example:
@@ -14,7 +14,7 @@ royals_df = Scraper('KC')
 
 
 
-### Keys for creating object
+### Keys for creating object:
 Kansas City Royals = 'KC' <br/>
 Chicago White Sox = 'CHW' <br/>
 Cleveland Indians = 'CLE' <br/>
@@ -23,15 +23,15 @@ Minnesota Twins = 'MIN' <br/>
 
 
 
-### Methods
+### Methods:
 
-#### Creating Data Frame
+#### Creating Data Frame:
 
 Using the royals example above, this will create a dataframe for the specific team you used as your key
 
 ##### royal_df.create_df
 
-#### Accesssing the Data Frame
+#### Accesssing the Data Frame:
 
 Using the royals example above, to access the data frame you use
 
