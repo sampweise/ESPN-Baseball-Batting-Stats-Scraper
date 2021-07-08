@@ -1,8 +1,7 @@
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
-from Team_Names import Team_Names
-
+from src.team_names import Team_Names
 
 class Scraper():
     def __init__(self, name):
@@ -10,7 +9,7 @@ class Scraper():
             self.url = 'https://www.espn.com/mlb/team/stats/_/name' + Team_Names.Teams[name]
             self.page = requests.get(self.url)
             self.parsed = BeautifulSoup(self.page.text, 'html.parser')
-            self.ids = [*range(0,19)]
+            self.ids = [*range(0,15)]
             self.players_data=[]
             self.header_name=[]
             #Narrows the search since similar class names on the websites
@@ -50,3 +49,4 @@ class Scraper():
         temp_df.columns = self.header_name
         self.data_frame = pd.concat([self.data_frame,temp_df])
         self.data_frame.insert(loc=0, column='Players', value=self.names_list)
+
