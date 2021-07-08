@@ -20,6 +20,31 @@ Chicago White Sox = 'CHW' <br/>
 Cleveland Indians = 'CLE' <br/>
 Detroit Tigers = 'DET' <br/>
 Minnesota Twins = 'MIN' <br/>
+Baltimore Orioles = 'BAL' <br/>
+Boston Red Sox = 'BOS' <br/>
+New York Yankees = 'NYY' <br/>
+Tampa Bay Rays = 'TB' <br/>
+Toronto Blue Jays = 'TOR' <br/>
+Houton Astros = 'HOU' <br/>
+Los Angeles = 'LAA',
+Oakland Athletics = 'OAK' <br/>
+Seattle Mariners = 'SEA' <br/>
+Texas Rangers = 'TEX' <br/>
+Atlanta Braves = 'ATL' <br/>
+Miami Marlins = 'MIA' <br/>
+New York Mets = 'NYM' <br/>
+Philadelphia Phillies = 'PHI' <br/>
+Washington Nationals = 'WSH' <br/>
+Chicago Cubs = 'CHC' <br/>
+Cincinatti Reds = 'CIN' <br/>
+Milwaukee Brewers = 'MIL' <br/>
+Pittsburgh Pirates = 'PIT' <br/>
+St. Louis Cardinals = 'STL' <br/>
+Arizona Diamondbacks = 'ARI' <br/>
+Colorado Rockies = 'COL' <br/>
+Los Angeles Dodgers = 'LAD' <br/>
+San Diego Padres = 'SD' <br/>
+San Franciso Giants = 'SF' <br/>
 
 
 
